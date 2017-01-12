@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61A4224BB6E0821F778E0B4E /* Pods_titi_cuidadoresTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B83609DAF32C7E85CD53A83A /* Pods_titi_cuidadoresTests.framework */; };
+		665B6AAE95A995AEF34A1B55 /* Pods_titi_cuidadores.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D04A300328FB85ED618A71 /* Pods_titi_cuidadores.framework */; };
+		9128A9D458BABFA6661DCDAE /* Pods_titi_cuidadoresUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 711AB25CD9437C6C6685242B /* Pods_titi_cuidadoresUITests.framework */; };
 		9D62761C1E1C21DF0086391B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D62761B1E1C21DF0086391B /* AppDelegate.swift */; };
-		9D62761E1E1C21E00086391B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D62761D1E1C21E00086391B /* ViewController.swift */; };
-		9D6276211E1C21E00086391B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D62761F1E1C21E00086391B /* Main.storyboard */; };
+		9D62761E1E1C21E00086391B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D62761D1E1C21E00086391B /* BaseViewController.swift */; };
 		9D6276231E1C21E00086391B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D6276221E1C21E00086391B /* Assets.xcassets */; };
 		9D6276261E1C21E00086391B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D6276241E1C21E00086391B /* LaunchScreen.storyboard */; };
 		9D6276311E1C21E00086391B /* titi_cuidadoresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6276301E1C21E00086391B /* titi_cuidadoresTests.swift */; };
 		9D62763C1E1C21E00086391B /* titi_cuidadoresUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D62763B1E1C21E00086391B /* titi_cuidadoresUITests.swift */; };
+		9D9DAA611E1C37460088504D /* CepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9DAA601E1C37460088504D /* CepViewController.swift */; };
+		9DC73BB71E2496A500EA97C4 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC73BB61E2496A500EA97C4 /* SearchViewController.swift */; };
+		9DC73BBC1E249A0300EA97C4 /* CategoryListPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC73BBB1E249A0300EA97C4 /* CategoryListPopupViewController.swift */; };
+		9DC73BBE1E249B3500EA97C4 /* PopupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC73BBD1E249B3500EA97C4 /* PopupController.swift */; };
+		9DC73BC31E24A1CA00EA97C4 /* CategoryList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DC73BC21E24A1CA00EA97C4 /* CategoryList.storyboard */; };
+		9DC73BC51E24A6F800EA97C4 /* ProCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC73BC41E24A6F800EA97C4 /* ProCategory.swift */; };
+		9DC73BC71E24AB6200EA97C4 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC73BC61E24AB6200EA97C4 /* Helper.swift */; };
+		9DC73BD01E25C7D400EA97C4 /* FoldingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC73BCF1E25C7D400EA97C4 /* FoldingTableViewController.swift */; };
+		9DC73BD21E25C8F900EA97C4 /* DemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC73BD11E25C8F900EA97C4 /* DemoCell.swift */; };
+		9DC73BD41E25C99900EA97C4 /* FoldingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC73BD31E25C99900EA97C4 /* FoldingCell.swift */; };
+		9DC73BD61E25EBB700EA97C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DC73BD51E25EBB700EA97C4 /* Main.storyboard */; };
+		9DE2BD991E1F607700D08202 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE2BD981E1F607700D08202 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +48,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29D04A300328FB85ED618A71 /* Pods_titi_cuidadores.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_titi_cuidadores.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48189A09E8C1557CF871D404 /* Pods-titi-cuidadores.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-titi-cuidadores.release.xcconfig"; path = "Pods/Target Support Files/Pods-titi-cuidadores/Pods-titi-cuidadores.release.xcconfig"; sourceTree = "<group>"; };
+		59F559E6560B40902C943F9D /* Pods-titi-cuidadoresTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-titi-cuidadoresTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-titi-cuidadoresTests/Pods-titi-cuidadoresTests.release.xcconfig"; sourceTree = "<group>"; };
+		6631A5A4BA891652CF0ADB45 /* Pods-titi-cuidadoresUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-titi-cuidadoresUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-titi-cuidadoresUITests/Pods-titi-cuidadoresUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		711AB25CD9437C6C6685242B /* Pods_titi_cuidadoresUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_titi_cuidadoresUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D6276181E1C21DF0086391B /* titi-cuidadores.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "titi-cuidadores.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D62761B1E1C21DF0086391B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9D62761D1E1C21E00086391B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9D6276201E1C21E00086391B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D62761D1E1C21E00086391B /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		9D6276221E1C21E00086391B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D6276251E1C21E00086391B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D6276271E1C21E00086391B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +65,22 @@
 		9D6276371E1C21E00086391B /* titi-cuidadoresUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "titi-cuidadoresUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D62763B1E1C21E00086391B /* titi_cuidadoresUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = titi_cuidadoresUITests.swift; sourceTree = "<group>"; };
 		9D62763D1E1C21E00086391B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D9DAA601E1C37460088504D /* CepViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CepViewController.swift; sourceTree = "<group>"; };
+		9DC73BB61E2496A500EA97C4 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		9DC73BBB1E249A0300EA97C4 /* CategoryListPopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryListPopupViewController.swift; sourceTree = "<group>"; };
+		9DC73BBD1E249B3500EA97C4 /* PopupController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupController.swift; sourceTree = "<group>"; };
+		9DC73BC21E24A1CA00EA97C4 /* CategoryList.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CategoryList.storyboard; sourceTree = "<group>"; };
+		9DC73BC41E24A6F800EA97C4 /* ProCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProCategory.swift; sourceTree = "<group>"; };
+		9DC73BC61E24AB6200EA97C4 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		9DC73BCF1E25C7D400EA97C4 /* FoldingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoldingTableViewController.swift; sourceTree = "<group>"; };
+		9DC73BD11E25C8F900EA97C4 /* DemoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoCell.swift; sourceTree = "<group>"; };
+		9DC73BD31E25C99900EA97C4 /* FoldingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoldingCell.swift; sourceTree = "<group>"; };
+		9DC73BD51E25EBB700EA97C4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9DE2BD981E1F607700D08202 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AA557419077729C385001EE6 /* Pods-titi-cuidadores.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-titi-cuidadores.debug.xcconfig"; path = "Pods/Target Support Files/Pods-titi-cuidadores/Pods-titi-cuidadores.debug.xcconfig"; sourceTree = "<group>"; };
+		B83609DAF32C7E85CD53A83A /* Pods_titi_cuidadoresTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_titi_cuidadoresTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C54597D7D5B7DE2375D358EE /* Pods-titi-cuidadoresUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-titi-cuidadoresUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-titi-cuidadoresUITests/Pods-titi-cuidadoresUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CC7AF8498870C1CB378CD445 /* Pods-titi-cuidadoresTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-titi-cuidadoresTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-titi-cuidadoresTests/Pods-titi-cuidadoresTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				665B6AAE95A995AEF34A1B55 /* Pods_titi_cuidadores.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61A4224BB6E0821F778E0B4E /* Pods_titi_cuidadoresTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +104,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9128A9D458BABFA6661DCDAE /* Pods_titi_cuidadoresUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E87AFA972370A8055FB94EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29D04A300328FB85ED618A71 /* Pods_titi_cuidadores.framework */,
+				B83609DAF32C7E85CD53A83A /* Pods_titi_cuidadoresTests.framework */,
+				711AB25CD9437C6C6685242B /* Pods_titi_cuidadoresUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46DFA12F5F24B427F24D5DDF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA557419077729C385001EE6 /* Pods-titi-cuidadores.debug.xcconfig */,
+				48189A09E8C1557CF871D404 /* Pods-titi-cuidadores.release.xcconfig */,
+				CC7AF8498870C1CB378CD445 /* Pods-titi-cuidadoresTests.debug.xcconfig */,
+				59F559E6560B40902C943F9D /* Pods-titi-cuidadoresTests.release.xcconfig */,
+				6631A5A4BA891652CF0ADB45 /* Pods-titi-cuidadoresUITests.debug.xcconfig */,
+				C54597D7D5B7DE2375D358EE /* Pods-titi-cuidadoresUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9D62760F1E1C21DF0086391B = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +141,8 @@
 				9D62762F1E1C21E00086391B /* titi-cuidadoresTests */,
 				9D62763A1E1C21E00086391B /* titi-cuidadoresUITests */,
 				9D6276191E1C21DF0086391B /* Products */,
+				46DFA12F5F24B427F24D5DDF /* Pods */,
+				0E87AFA972370A8055FB94EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +159,20 @@
 		9D62761A1E1C21DF0086391B /* titi-cuidadores */ = {
 			isa = PBXGroup;
 			children = (
+				9DC73BCA1E24B92B00EA97C4 /* Resources */,
+				9DC73BB81E24991C00EA97C4 /* PopupViews */,
+				9D9DAA621E1C3E900088504D /* Components */,
+				9D9DAA5F1E1C370D0088504D /* Model */,
+				9D9DAA5E1E1C37080088504D /* Common */,
+				9D9DAA5D1E1C36F60088504D /* Storyboards */,
+				9D9DAA5C1E1C36EE0088504D /* Controllers */,
 				9D62761B1E1C21DF0086391B /* AppDelegate.swift */,
-				9D62761D1E1C21E00086391B /* ViewController.swift */,
-				9D62761F1E1C21E00086391B /* Main.storyboard */,
 				9D6276221E1C21E00086391B /* Assets.xcassets */,
 				9D6276241E1C21E00086391B /* LaunchScreen.storyboard */,
 				9D6276271E1C21E00086391B /* Info.plist */,
+				9DC73BC61E24AB6200EA97C4 /* Helper.swift */,
+				9DC73BD11E25C8F900EA97C4 /* DemoCell.swift */,
+				9DC73BD31E25C99900EA97C4 /* FoldingCell.swift */,
 			);
 			path = "titi-cuidadores";
 			sourceTree = "<group>";
@@ -125,6 +195,65 @@
 			path = "titi-cuidadoresUITests";
 			sourceTree = "<group>";
 		};
+		9D9DAA5C1E1C36EE0088504D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9DC73BBD1E249B3500EA97C4 /* PopupController.swift */,
+				9D62761D1E1C21E00086391B /* BaseViewController.swift */,
+				9D9DAA601E1C37460088504D /* CepViewController.swift */,
+				9DE2BD981E1F607700D08202 /* HomeViewController.swift */,
+				9DC73BB61E2496A500EA97C4 /* SearchViewController.swift */,
+				9DC73BCF1E25C7D400EA97C4 /* FoldingTableViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		9D9DAA5D1E1C36F60088504D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9DC73BD51E25EBB700EA97C4 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		9D9DAA5E1E1C37080088504D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				9DC73BC41E24A6F800EA97C4 /* ProCategory.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		9D9DAA5F1E1C370D0088504D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9D9DAA621E1C3E900088504D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		9DC73BB81E24991C00EA97C4 /* PopupViews */ = {
+			isa = PBXGroup;
+			children = (
+				9DC73BBB1E249A0300EA97C4 /* CategoryListPopupViewController.swift */,
+				9DC73BC21E24A1CA00EA97C4 /* CategoryList.storyboard */,
+			);
+			name = PopupViews;
+			sourceTree = "<group>";
+		};
+		9DC73BCA1E24B92B00EA97C4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +261,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D6276401E1C21E00086391B /* Build configuration list for PBXNativeTarget "titi-cuidadores" */;
 			buildPhases = (
+				B6F20EFA3F16336C64B696D1 /* [CP] Check Pods Manifest.lock */,
 				9D6276141E1C21DF0086391B /* Sources */,
 				9D6276151E1C21DF0086391B /* Frameworks */,
 				9D6276161E1C21DF0086391B /* Resources */,
+				7D7FE26A4CC491A2837D6A9C /* [CP] Embed Pods Frameworks */,
+				FCD32B57C37B216793423080 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +281,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D6276431E1C21E00086391B /* Build configuration list for PBXNativeTarget "titi-cuidadoresTests" */;
 			buildPhases = (
+				E068129B32319B8D8107B3F7 /* [CP] Check Pods Manifest.lock */,
 				9D6276281E1C21E00086391B /* Sources */,
 				9D6276291E1C21E00086391B /* Frameworks */,
 				9D62762A1E1C21E00086391B /* Resources */,
+				C115F41CAD20B9D2FA918DDA /* [CP] Embed Pods Frameworks */,
+				C8F694F7789D802F343ADD4E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +302,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D6276461E1C21E00086391B /* Build configuration list for PBXNativeTarget "titi-cuidadoresUITests" */;
 			buildPhases = (
+				225956AFE2A6E7E2A7ABDACA /* [CP] Check Pods Manifest.lock */,
 				9D6276331E1C21E00086391B /* Sources */,
 				9D6276341E1C21E00086391B /* Frameworks */,
 				9D6276351E1C21E00086391B /* Resources */,
+				FB9074E85E69D4127E484680 /* [CP] Embed Pods Frameworks */,
+				4663F79F6C095964816B0775 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,9 +373,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DC73BC31E24A1CA00EA97C4 /* CategoryList.storyboard in Resources */,
 				9D6276261E1C21E00086391B /* LaunchScreen.storyboard in Resources */,
 				9D6276231E1C21E00086391B /* Assets.xcassets in Resources */,
-				9D6276211E1C21E00086391B /* Main.storyboard in Resources */,
+				9DC73BD61E25EBB700EA97C4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +396,161 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		225956AFE2A6E7E2A7ABDACA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4663F79F6C095964816B0775 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-titi-cuidadoresUITests/Pods-titi-cuidadoresUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D7FE26A4CC491A2837D6A9C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-titi-cuidadores/Pods-titi-cuidadores-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6F20EFA3F16336C64B696D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C115F41CAD20B9D2FA918DDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-titi-cuidadoresTests/Pods-titi-cuidadoresTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8F694F7789D802F343ADD4E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-titi-cuidadoresTests/Pods-titi-cuidadoresTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E068129B32319B8D8107B3F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FB9074E85E69D4127E484680 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-titi-cuidadoresUITests/Pods-titi-cuidadoresUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCD32B57C37B216793423080 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-titi-cuidadores/Pods-titi-cuidadores-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9D6276141E1C21DF0086391B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D62761E1E1C21E00086391B /* ViewController.swift in Sources */,
+				9DC73BB71E2496A500EA97C4 /* SearchViewController.swift in Sources */,
+				9DC73BBC1E249A0300EA97C4 /* CategoryListPopupViewController.swift in Sources */,
+				9DC73BBE1E249B3500EA97C4 /* PopupController.swift in Sources */,
+				9DC73BC51E24A6F800EA97C4 /* ProCategory.swift in Sources */,
+				9D62761E1E1C21E00086391B /* BaseViewController.swift in Sources */,
+				9DC73BC71E24AB6200EA97C4 /* Helper.swift in Sources */,
+				9DC73BD01E25C7D400EA97C4 /* FoldingTableViewController.swift in Sources */,
+				9DC73BD21E25C8F900EA97C4 /* DemoCell.swift in Sources */,
+				9D9DAA611E1C37460088504D /* CepViewController.swift in Sources */,
 				9D62761C1E1C21DF0086391B /* AppDelegate.swift in Sources */,
+				9DE2BD991E1F607700D08202 /* HomeViewController.swift in Sources */,
+				9DC73BD41E25C99900EA97C4 /* FoldingCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +586,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9D62761F1E1C21E00086391B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9D6276201E1C21E00086391B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9D6276241E1C21E00086391B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -411,12 +690,13 @@
 		};
 		9D6276411E1C21E00086391B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA557419077729C385001EE6 /* Pods-titi-cuidadores.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 994YWGHH7T;
 				INFOPLIST_FILE = "titi-cuidadores/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.titi.titicuidadores.titi-cuidadores";
+				PRODUCT_BUNDLE_IDENTIFIER = com.titi.titicuidadores;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -424,12 +704,13 @@
 		};
 		9D6276421E1C21E00086391B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48189A09E8C1557CF871D404 /* Pods-titi-cuidadores.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 994YWGHH7T;
 				INFOPLIST_FILE = "titi-cuidadores/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.titi.titicuidadores.titi-cuidadores";
+				PRODUCT_BUNDLE_IDENTIFIER = com.titi.titicuidadores;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -437,6 +718,7 @@
 		};
 		9D6276441E1C21E00086391B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC7AF8498870C1CB378CD445 /* Pods-titi-cuidadoresTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +734,7 @@
 		};
 		9D6276451E1C21E00086391B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59F559E6560B40902C943F9D /* Pods-titi-cuidadoresTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -467,6 +750,7 @@
 		};
 		9D6276471E1C21E00086391B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6631A5A4BA891652CF0ADB45 /* Pods-titi-cuidadoresUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 994YWGHH7T;
@@ -481,6 +765,7 @@
 		};
 		9D6276481E1C21E00086391B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C54597D7D5B7DE2375D358EE /* Pods-titi-cuidadoresUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 994YWGHH7T;
@@ -512,6 +797,7 @@
 				9D6276421E1C21E00086391B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D6276431E1C21E00086391B /* Build configuration list for PBXNativeTarget "titi-cuidadoresTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +806,7 @@
 				9D6276451E1C21E00086391B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D6276461E1C21E00086391B /* Build configuration list for PBXNativeTarget "titi-cuidadoresUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +815,7 @@
 				9D6276481E1C21E00086391B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

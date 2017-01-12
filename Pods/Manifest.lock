@@ -1,0 +1,38 @@
+PODS:
+  - Alamofire (4.2.0)
+  - DownPicker (0.1.34)
+  - EAIntroView (2.10.0):
+    - EARestrictedScrollView (~> 1.1.0)
+  - EARestrictedScrollView (1.1.0)
+  - FoldingCell (2.0.3)
+  - PopupController (0.2.0)
+  - Realm (2.1.2):
+    - Realm/Headers (= 2.1.2)
+  - Realm/Headers (2.1.2)
+  - RealmSwift (2.1.2):
+    - Realm (= 2.1.2)
+  - SwiftyJSON (3.1.3)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - DownPicker
+  - EAIntroView (~> 2.10.0)
+  - FoldingCell
+  - PopupController
+  - RealmSwift
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  DownPicker: c00ea63f08ae82116cc93d0eba74e86bf3d4c68e
+  EAIntroView: 3494b7bbd1212e3a4f7e8d16194a1b00e7b9abb2
+  EARestrictedScrollView: b0c2a3f92fb2610bb44d71c5e4893777c89e45ef
+  FoldingCell: 2f3113051609167776743415fc00ed877ac6d62c
+  PopupController: 0b69fdf11cbeaa807789a8c3992599083640988f
+  Realm: efe855f4d977c8ce5a82d3116d9f1ff155a6550c
+  RealmSwift: 17d6ee30b6f9df86364408c2197492e33bfea567
+  SwiftyJSON: 38a8ea2006779c0fc4c310cb2ee8195327740faf
+
+PODFILE CHECKSUM: 2436bc45a533d93f9982a95af2aad1b03e22a399
+
+COCOAPODS: 1.1.1
